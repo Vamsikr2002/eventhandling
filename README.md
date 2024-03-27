@@ -16,6 +16,8 @@ curl --location 'https://shy-pink-foal-sock.cyclic.app/api/events/find' \
     "latitude": "12.34",
     "longitude": "56.78"
 }'
+
+
 To test the api for importing the csv file 
 curl --location 'https://shy-pink-foal-sock.cyclic.app/upload' \
 --form 'file=@“<Path to your csv file>“’
