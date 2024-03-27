@@ -1,6 +1,6 @@
 created two apis 
 
-  1=> one for getting the the csv file and storing the records present in mongodb 
+  1=> one for getting the the csv file and storing the records in mongodb 
 
   2=> the other one takes the date lattitude and longitude as the inputs and will return the events upcoming in next 14 days by calculating the distance from the userlocation to the event location and weather on that day
 
