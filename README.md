@@ -8,7 +8,7 @@ Project is for Handling events
 
   2=> the other one takes the date lattitude and longitude as the inputs and will return the events upcoming in next 14 days by calculating the distance from the userlocation to the event location and weather on that day
 ## Run
-To test the api 
+To test the api for finding events upcoming
 curl --location 'https://shy-pink-foal-sock.cyclic.app/api/events/find' \
 --header 'Content-Type: application/json' \
 --data '{
@@ -16,6 +16,10 @@ curl --location 'https://shy-pink-foal-sock.cyclic.app/api/events/find' \
     "latitude": "12.34",
     "longitude": "56.78"
 }'
+To test the api for importing the csv file 
+curl --location 'https://shy-pink-foal-sock.cyclic.app/upload' \
+--form 'file=@“<Path to your csv file>“’
+
 
 
 ## Sample response
