@@ -2,7 +2,7 @@
 Project is for Handling events
 - This project mainly takes the date lattitude and longitude as input and gives details of next upcoming events for next 14 days and also distance from userlocation and weather on the day of event
 ## Program Structure
-- reated two apis 
+- created two apis 
 
   1=> one for getting the the csv file and storing the records in mongodb 
 
