@@ -9,7 +9,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
 app.listen(3001, () => {
-    console.log('Server started on port 3001'); // Corrected console.log statement
+    console.log('Server started on port 3001');
 });
 
 mongoose.connect('mongodb+srv://vamsiniki:tea@cluster10.bxygsk4.mongodb.net/');
@@ -19,5 +19,5 @@ db.once('open', function() {
     console.log('Connected to MongoDB');
 });
 
-const userRoute = require('./Routes/routes'); // Corrected variable name
+const userRoute = require('./Routes/routes'); 
 app.use('/', userRoute);
