@@ -29,6 +29,7 @@ curl --location 'https://shy-pink-foal-sock.cyclic.app/upload' \
 Sample response of events coming in next 14 days
 ![image](https://github.com/Vamsikr2002/eventhandling/assets/115055314/cbb61575-189f-4e76-88ae-0c4874c943ef)
 ##Input Format
+
 curl --location 'https://shy-pink-foal-sock.cyclic.app/api/events/find' \
 --header 'Content-Type: application/json' \
 --data '{
