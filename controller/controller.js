@@ -29,9 +29,9 @@ const importuser = async (req, res) => {
 
 const findEvents = async (req, res) => {
     try {
-        const { date, latitude, longitude } = req.body; // Retrieve data from request body
+        const { latitude, longitude, date } = req.body; // Extract latitude, longitude, and date from request body
         if (!date || !latitude || !longitude) {
-            return res.status(400).json({ error: 'Date, latitude, and longitude parameters are required in the request body' });
+            return res.status(400).json({ error: 'Date, latitude, and longitude parameters are required' });
         }
 
         // Parse the date string to a Date object
