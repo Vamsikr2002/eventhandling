@@ -9,12 +9,12 @@ Project is for Handling events
   2=> the other one takes the date lattitude and longitude as the inputs and will return the events upcoming in next 14 days by calculating the distance from the userlocation to the event location and weather on that day
 ## Run
 To test the api for finding events upcoming
-curl --location 'https://shy-pink-foal-sock.cyclic.app/api/events/find' \
+curl --location 'https://eventhandling-zdpl.onrender.com/api/events/find' \
 --header 'Content-Type: application/json' \
 --data '{
     "date": "2024-03-27",
     "latitude": "12.34",
-    "longitude": "56.78"
+    "longitude": "56.78"
 }'
 
 
