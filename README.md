@@ -1,6 +1,7 @@
 ## Eventhandling
-Project is for Handling events
-- This project mainly takes the date lattitude and longitude as input and gives details of next upcoming events for next 14 days and also distance from userlocation and weather on the day of event
+This Project is mainly the backend one which is for handling events
+- There is catering company which will take the orders from the customers and store them in a file containg mainly the date the catering needed to be done and the lattitude and longitude of the place needed to deliver food 
+- Now if the owner want to check upcpming events he will give the current date and his location in the format of lattitude and longitude for this input and gives details of next upcoming events for next 14 days and also distance from userlocation and weather on the day of event
 ## Program Structure
 - created two apis 
 
