@@ -36,7 +36,7 @@ const findEvents = async (req, res) => {
 
         // Parse the date string to a Date object
         const specifiedDate = new Date(date);
-        const endDate = new Date(specifiedDate.getTime() + 50 * 24 * 60 * 60 * 1000); // Add 50 days to the specified date
+        const endDate = new Date(specifiedDate.getTime() + 15 * 24 * 60 * 60 * 1000); // Add 50 days to the specified date
 
         // Query events from the database based on the date range
         const events = await Event.find({
